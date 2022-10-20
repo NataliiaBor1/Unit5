@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc15956-ee10-4690-8545-99c00f4f287a" name="Changes" comment="first commit for week 5">
-      <change afterPath="$PROJECT_DIR$/src/ArrayStack.java" afterDir="false" />
+    <list default="true" id="bfc15956-ee10-4690-8545-99c00f4f287a" name="Changes" comment="evening update">
+      <change afterPath="$PROJECT_DIR$/src/Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reverseDigitsLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BalancedParentheses.java" afterDir="false" />
     </list>
@@ -37,7 +38,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.BalancedParentheses">
+  <component name="RunManager" selected="Application.reverseDigitsLinkedList">
     <configuration name="BalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BalancedParentheses" />
       <module name="Unit5" />
@@ -52,8 +53,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="reverseDigitsLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reverseDigitsLinkedList" />
+      <module name="Unit5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reverseDigitsLinkedList" />
         <item itemvalue="Application.BalancedParentheses" />
         <item itemvalue="Application.MissingNumber" />
       </list>
@@ -75,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666212128807</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="evening update">
+      <created>1666229673440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666229673440</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit for week 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit for week 5" />
+    <MESSAGE value="evening update" />
+    <option name="LAST_COMMIT_MESSAGE" value="evening update" />
   </component>
 </project>

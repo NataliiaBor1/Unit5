@@ -122,7 +122,8 @@ public class BalancedParentheses {
                 case ('<'):
                     stack.push(x);
                     break;
-
+                // "[(])" --->   [( --->  ( != [ ---> false
+                // "[()]" --->  [( ---> ( != ( ----> [ != [
                 case (')'):
                 case (']'):
                 case ('}'):
