@@ -2,9 +2,13 @@ import java.util.HashMap;
 import java.util.Stack;
 
 public class BalancedParentheses {
-    //
+    //Write a function that takes in a string and returns true or false based on whether the string’s
+    // opening-and-closing marks (that is, brackets) are balanced. Account for the following bracket types:
+    // ()   {}   []   <>
+    //The string doesn’t need to have all four types of brackets, but if an open bracket appears, the pair
+    // should also be closed correctly. Assume you can use any libraries in Java needed.
 
-    public static Boolean balancedParentheses(String s) {
+    public static Boolean balancedParentheses(String s) {   // my solution
         int countOpen = 0;
         int countClose = 0;
 
@@ -141,7 +145,7 @@ public class BalancedParentheses {
     }
 
 
-    public static boolean pParse(String input) {
+    public static boolean pParse(String input) {  //from Nick
 
         Stack<Character> charStack = new Stack<>();
         HashMap<Character, Character> charMap = new HashMap<>();
@@ -190,12 +194,10 @@ public class BalancedParentheses {
             else if (s.charAt(i) == ')') {
                 numUnclosedOpenParens -= 1;
             }
-
             if (numUnclosedOpenParens < 0) {
                 return false;
             }
         }
-
         return numUnclosedOpenParens == 0;
     }
 
@@ -227,11 +229,10 @@ public class BalancedParentheses {
                 }
             }
         }
-
         return stack.isEmpty();
     }
 
-    public static int postfix(String expression) {  // "2 3 1 * + 9 -"
+    public static int postfix(String expression) {  // "2 3 1 * + 9 -"   // from Nick, morning lecture
         // (2 + 3*1) - 9
         // 2 + 3 -> 23+
         // 31*  --> 3 --> 23+
@@ -278,7 +279,6 @@ public class BalancedParentheses {
 
         }
         return charStack.pop();
-
     }
 
     public static void main(String[] args) {
