@@ -18,7 +18,6 @@ public class Recursion {
             countIndexes++;
             return recursionSearch1(s, list, countIndexes);
         }
-
     }
 
     public static void main(String[] args) {

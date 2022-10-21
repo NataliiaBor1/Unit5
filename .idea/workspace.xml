@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc15956-ee10-4690-8545-99c00f4f287a" name="Changes" comment="night update">
+    <list default="true" id="bfc15956-ee10-4690-8545-99c00f4f287a" name="Changes" comment="Thursday update October 20'22">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorts/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorts/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorts/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sorts/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BalancedParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BalancedParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,17 +41,49 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Recursion">
-    <configuration name="BalancedParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BalancedParentheses" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorts.BubbleSort" />
+      <module name="Unit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorts.InsertionSort" />
       <module name="Unit5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MissingNumber" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorts.MergeSort" />
       <module name="Unit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sorts.QuickSort" />
+      <module name="Unit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sorts.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,19 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reverseDigitsLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reverseDigitsLinkedList" />
-      <module name="Unit5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.reverseDigitsLinkedList" />
-        <item itemvalue="Application.BalancedParentheses" />
-        <item itemvalue="Application.MissingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666253486942</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Thursday update October 20'22">
+      <created>1666321880145</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666321880145</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +160,7 @@
     <MESSAGE value="first commit for week 5" />
     <MESSAGE value="evening update" />
     <MESSAGE value="night update" />
-    <option name="LAST_COMMIT_MESSAGE" value="night update" />
+    <MESSAGE value="Thursday update October 20'22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thursday update October 20'22" />
   </component>
 </project>
