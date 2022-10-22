@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bfc15956-ee10-4690-8545-99c00f4f287a" name="Changes" comment="Thursday update October 20'22">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorts/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorts/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorts/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorts/QuickSort.java" afterDir="false" />
+    <list default="true" id="bfc15956-ee10-4690-8545-99c00f4f287a" name="Changes" comment="Thursday night update October 20'22">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Recursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MissingNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.MissingNumber">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorts.BubbleSort" />
       <module name="Unit5" />
@@ -75,6 +70,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MissingNumber" />
+      <module name="Unit5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sorts.QuickSort" />
       <module name="Unit5" />
@@ -88,20 +90,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion" />
-      <module name="Unit5" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.InsertionSort" />
-        <item itemvalue="Application.Recursion" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666321880145</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Thursday night update October 20'22">
+      <created>1666338203767</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666338203767</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +163,7 @@
     <MESSAGE value="evening update" />
     <MESSAGE value="night update" />
     <MESSAGE value="Thursday update October 20'22" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thursday update October 20'22" />
+    <MESSAGE value="Thursday night update October 20'22" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thursday night update October 20'22" />
   </component>
 </project>

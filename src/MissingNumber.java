@@ -19,11 +19,11 @@ public class MissingNumber {
         return missingNumber;
     }
 
-    public static int findMissingNumber1 (int[] n, int max) {    // my solution   O(n^2)
-        int missingNumber = 0;
+    public static int findMissingNumber1 (int[] n, int max) {    // my solution   O(n^2)  // wrong solution
+        int missingNumber = 0;  // work for not all test cases
         Arrays.sort(n);
 
-        if (n.length == max && n[n.length-1] == max) {
+        if (n.length == max && n[n.length-1] == max) { // if nothing is missing
             return 0;
         }
             for (int i = 0; i < n.length; i++) {
@@ -46,21 +46,24 @@ public class MissingNumber {
             realSum += n[i];
         }
         if (maxSum - realSum == max) {
-            return 0;
+            return max;
         }
         return maxSum - realSum;
     }
 
     public static void main(String[] args) {
-        int[] num = {2, 1, 4, 3, 6, 5, 7, 10, 9};  // {1,2,3,4,5,6,7,9,10}
-        int[] num1 = {2, 1, 4, 3, 6, 5, 7, 8, 9};
+        int[] num = {2, 1, 4, 3, 6, 5, 7, 10, 9};  // {1,2,3,4,5,6,7,9,10} // must return 8
+        int[] num1 = {2, 1, 4, 3, 6, 5, 7, 8, 9}; // must return 10
+        int[] num2 = {2, 1, 4, 3, 6, 5, 7, 8, 9, 10}; // must return 0
 
         System.out.println(findMissingNumber1(num, 10));
         System.out.println(findMissingNumber1(num1, 10));
+        System.out.println(findMissingNumber1(num2, 10));
         System.out.println("-----------------------");
 
         System.out.println(findMissingNumber2(num, 10));
         System.out.println(findMissingNumber2(num1, 10));
+        System.out.println(findMissingNumber2(num2, 10));
     }
 
 }
