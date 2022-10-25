@@ -64,6 +64,11 @@ public class MissingNumber {
         System.out.println(findMissingNumber2(num, 10));
         System.out.println(findMissingNumber2(num1, 10));
         System.out.println(findMissingNumber2(num2, 10));
+
+        System.out.println("-------------------------");
+        System.out.println(findMissingNumber(num, 10));
+        System.out.println(findMissingNumber(num1, 10));
+        System.out.println(findMissingNumber(num2, 10));
     }
 
 }

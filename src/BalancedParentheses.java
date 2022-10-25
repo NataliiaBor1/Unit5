@@ -321,5 +321,6 @@ public class BalancedParentheses {
         System.out.println(balancedParentheses3(s11));
         System.out.println(balancedParentheses3(s12));
         System.out.println(balancedParentheses3(s13));
+        System.out.println(balancedParentheses3(""));
     }
 }
